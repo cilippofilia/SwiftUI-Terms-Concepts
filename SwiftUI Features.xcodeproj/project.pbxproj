@@ -18,6 +18,7 @@
 		18F7EF2C2930C90900F478BE /* HStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7EF2B2930C90900F478BE /* HStackView.swift */; };
 		18F7EF2E2930C9AA00F478BE /* LazyHStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7EF2D2930C9AA00F478BE /* LazyHStackView.swift */; };
 		18F7EF302930C9B300F478BE /* LazyVStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7EF2F2930C9B300F478BE /* LazyVStackView.swift */; };
+		18F7EF322930FFFA00F478BE /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7EF312930FFFA00F478BE /* ImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		18F7EF2B2930C90900F478BE /* HStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackView.swift; sourceTree = "<group>"; };
 		18F7EF2D2930C9AA00F478BE /* LazyHStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHStackView.swift; sourceTree = "<group>"; };
 		18F7EF2F2930C9B300F478BE /* LazyVStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStackView.swift; sourceTree = "<group>"; };
+		18F7EF312930FFFA00F478BE /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				185A54FA292B66CE00EE5389 /* LabelsView.swift */,
 				18F7EF202930C23A00F478BE /* ButtonsView.swift */,
 				18F7EF222930C33A00F478BE /* ShapesView.swift */,
+				18F7EF312930FFFA00F478BE /* ImageView.swift */,
 				18F7EF2A2930C7DE00F478BE /* Stacks */,
 				185A54FC292B66D000EE5389 /* Assets.xcassets */,
 				185A54FE292B66D000EE5389 /* Preview Content */,
@@ -166,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F7EF322930FFFA00F478BE /* ImageView.swift in Sources */,
 				18F7EF2E2930C9AA00F478BE /* LazyHStackView.swift in Sources */,
 				18F7EF292930C7D000F478BE /* VStackView.swift in Sources */,
 				18F7EF302930C9B300F478BE /* LazyVStackView.swift in Sources */,
