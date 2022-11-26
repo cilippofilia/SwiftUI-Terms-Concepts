@@ -11,6 +11,7 @@
 		185A54FB292B66CE00EE5389 /* LabelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185A54FA292B66CE00EE5389 /* LabelsView.swift */; };
 		185A54FD292B66D000EE5389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185A54FC292B66D000EE5389 /* Assets.xcassets */; };
 		185A5500292B66D000EE5389 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185A54FF292B66D000EE5389 /* Preview Assets.xcassets */; };
+		18EFC75129323C0D00C22338 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EFC75029323C0D00C22338 /* ListView.swift */; };
 		18F7EF212930C23A00F478BE /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7EF202930C23A00F478BE /* ButtonsView.swift */; };
 		18F7EF232930C33A00F478BE /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7EF222930C33A00F478BE /* ShapesView.swift */; };
 		18F7EF272930C73800F478BE /* ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7EF262930C73800F478BE /* ZStackView.swift */; };
@@ -27,6 +28,7 @@
 		185A54FA292B66CE00EE5389 /* LabelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelsView.swift; sourceTree = "<group>"; };
 		185A54FC292B66D000EE5389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		185A54FF292B66D000EE5389 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18EFC75029323C0D00C22338 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		18F7EF202930C23A00F478BE /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
 		18F7EF222930C33A00F478BE /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
 		18F7EF262930C73800F478BE /* ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				18F7EF202930C23A00F478BE /* ButtonsView.swift */,
 				18F7EF222930C33A00F478BE /* ShapesView.swift */,
 				18F7EF312930FFFA00F478BE /* ImageView.swift */,
+				18EFC75029323C0D00C22338 /* ListView.swift */,
 				18F7EF2A2930C7DE00F478BE /* Stacks */,
 				185A54FC292B66D000EE5389 /* Assets.xcassets */,
 				185A54FE292B66D000EE5389 /* Preview Content */,
@@ -177,6 +180,7 @@
 				18F7EF212930C23A00F478BE /* ButtonsView.swift in Sources */,
 				185A54FB292B66CE00EE5389 /* LabelsView.swift in Sources */,
 				18F7EF272930C73800F478BE /* ZStackView.swift in Sources */,
+				18EFC75129323C0D00C22338 /* ListView.swift in Sources */,
 				18F7EF232930C33A00F478BE /* ShapesView.swift in Sources */,
 				185A54F9292B66CE00EE5389 /* SwiftUI_FeaturesApp.swift in Sources */,
 			);
