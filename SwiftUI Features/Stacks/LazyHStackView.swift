@@ -11,7 +11,7 @@ struct LazyHStackView: View {
     var body: some View {
         ScrollView(.horizontal) {
             LazyHStack {
-                ForEach(0 ... 100, id: \.self) {
+                ForEach(0 ... 50, id: \.self) {
                     Text("Row \($0)")
                 }
             }

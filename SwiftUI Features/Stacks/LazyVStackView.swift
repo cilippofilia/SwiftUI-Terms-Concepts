@@ -11,7 +11,7 @@ struct LazyVStackView: View {
     var body: some View {
         ScrollView(.vertical) {
             LazyVStack {
-                ForEach(0 ... 100, id: \.self) {
+                ForEach(0 ... 50, id: \.self) {
                     Text("Row \($0)")
                 }
             }
