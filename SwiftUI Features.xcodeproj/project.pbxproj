@@ -12,6 +12,7 @@
 		185A54FB292B66CE00EE5389 /* LabelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185A54FA292B66CE00EE5389 /* LabelsView.swift */; };
 		185A54FD292B66D000EE5389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185A54FC292B66D000EE5389 /* Assets.xcassets */; };
 		185A5500292B66D000EE5389 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185A54FF292B66D000EE5389 /* Preview Assets.xcassets */; };
+		1868D99C294F288B0075A748 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868D99B294F288B0075A748 /* StepperView.swift */; };
 		18E83B52294DC2E9003E9DB9 /* TextfieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E83B51294DC2E9003E9DB9 /* TextfieldView.swift */; };
 		18EFC75129323C0D00C22338 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EFC75029323C0D00C22338 /* ListView.swift */; };
 		18F7EF212930C23A00F478BE /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7EF202930C23A00F478BE /* ButtonsView.swift */; };
@@ -31,6 +32,7 @@
 		185A54FA292B66CE00EE5389 /* LabelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelsView.swift; sourceTree = "<group>"; };
 		185A54FC292B66D000EE5389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		185A54FF292B66D000EE5389 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1868D99B294F288B0075A748 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 		18E83B51294DC2E9003E9DB9 /* TextfieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldView.swift; sourceTree = "<group>"; };
 		18EFC75029323C0D00C22338 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		18F7EF202930C23A00F478BE /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				18EFC75029323C0D00C22338 /* ListView.swift */,
 				182209F7294B3EAC003D8CA1 /* FormView.swift */,
 				18E83B51294DC2E9003E9DB9 /* TextfieldView.swift */,
+				1868D99B294F288B0075A748 /* StepperView.swift */,
 				18F7EF2A2930C7DE00F478BE /* Stacks */,
 				185A54FC292B66D000EE5389 /* Assets.xcassets */,
 				185A54FE292B66D000EE5389 /* Preview Content */,
@@ -182,6 +185,7 @@
 				18F7EF322930FFFA00F478BE /* ImageView.swift in Sources */,
 				18F7EF2E2930C9AA00F478BE /* LazyHStackView.swift in Sources */,
 				18F7EF292930C7D000F478BE /* VStackView.swift in Sources */,
+				1868D99C294F288B0075A748 /* StepperView.swift in Sources */,
 				18F7EF302930C9B300F478BE /* LazyVStackView.swift in Sources */,
 				18F7EF2C2930C90900F478BE /* HStackView.swift in Sources */,
 				18F7EF212930C23A00F478BE /* ButtonsView.swift in Sources */,
