@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		182209F8294B3EAC003D8CA1 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182209F7294B3EAC003D8CA1 /* FormView.swift */; };
 		1859E4BD2956FC140089A6E8 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1859E4BC2956FC140089A6E8 /* PickerView.swift */; };
+		1859E4C02959A1FA0089A6E8 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1859E4BF2959A1FA0089A6E8 /* Home.swift */; };
 		185A54F9292B66CE00EE5389 /* SwiftUI_FeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185A54F8292B66CE00EE5389 /* SwiftUI_FeaturesApp.swift */; };
 		185A54FB292B66CE00EE5389 /* LabelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185A54FA292B66CE00EE5389 /* LabelsView.swift */; };
 		185A54FD292B66D000EE5389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185A54FC292B66D000EE5389 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		182209F7294B3EAC003D8CA1 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		1859E4BC2956FC140089A6E8 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		1859E4BF2959A1FA0089A6E8 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		185A54F5292B66CE00EE5389 /* SwiftUI Features.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Features.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		185A54F8292B66CE00EE5389 /* SwiftUI_FeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_FeaturesApp.swift; sourceTree = "<group>"; };
 		185A54FA292B66CE00EE5389 /* LabelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelsView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1859E4C12959A31B0089A6E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18EFC75029323C0D00C22338 /* ListView.swift */,
+				182209F7294B3EAC003D8CA1 /* FormView.swift */,
+				18E83B51294DC2E9003E9DB9 /* TextfieldView.swift */,
+				1868D99B294F288B0075A748 /* StepperView.swift */,
+				1859E4BC2956FC140089A6E8 /* PickerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1859E4C22959A3320089A6E8 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				185A54FA292B66CE00EE5389 /* LabelsView.swift */,
+				18F7EF202930C23A00F478BE /* ButtonsView.swift */,
+				18F7EF222930C33A00F478BE /* ShapesView.swift */,
+				18F7EF312930FFFA00F478BE /* ImageView.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
 		185A54EC292B66CE00EE5389 = {
 			isa = PBXGroup;
 			children = (
@@ -78,15 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				185A54F8292B66CE00EE5389 /* SwiftUI_FeaturesApp.swift */,
-				185A54FA292B66CE00EE5389 /* LabelsView.swift */,
-				18F7EF202930C23A00F478BE /* ButtonsView.swift */,
-				18F7EF222930C33A00F478BE /* ShapesView.swift */,
-				18F7EF312930FFFA00F478BE /* ImageView.swift */,
-				18EFC75029323C0D00C22338 /* ListView.swift */,
-				182209F7294B3EAC003D8CA1 /* FormView.swift */,
-				18E83B51294DC2E9003E9DB9 /* TextfieldView.swift */,
-				1868D99B294F288B0075A748 /* StepperView.swift */,
-				1859E4BC2956FC140089A6E8 /* PickerView.swift */,
+				1859E4BF2959A1FA0089A6E8 /* Home.swift */,
+				1859E4C22959A3320089A6E8 /* Shapes */,
+				1859E4C12959A31B0089A6E8 /* Views */,
 				18F7EF2A2930C7DE00F478BE /* Stacks */,
 				185A54FC292B66D000EE5389 /* Assets.xcassets */,
 				185A54FE292B66D000EE5389 /* Preview Content */,
@@ -198,6 +217,7 @@
 				18F7EF272930C73800F478BE /* ZStackView.swift in Sources */,
 				18EFC75129323C0D00C22338 /* ListView.swift in Sources */,
 				18F7EF232930C33A00F478BE /* ShapesView.swift in Sources */,
+				1859E4C02959A1FA0089A6E8 /* Home.swift in Sources */,
 				185A54F9292B66CE00EE5389 /* SwiftUI_FeaturesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
