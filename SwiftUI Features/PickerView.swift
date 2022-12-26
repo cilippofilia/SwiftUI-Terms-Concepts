@@ -18,11 +18,10 @@ struct PickerView: View {
     @State private var selectedDifficulty: Difficulty = .medium
 
     var body: some View {
-
         List {
             Picker("Level:", selection: $selectedDifficulty) {
                 Text("Easy")
-                    .tag(Difficulty.medium)
+                    .tag(Difficulty.easy)
 
                 Text("Medium")
                     .tag(Difficulty.medium)
