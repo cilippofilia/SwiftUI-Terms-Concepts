@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct ToggleView: View {
+    @State var isWifiOn = false
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Toggle("Wi-Fi", isOn: $isWifiOn)
+            .padding()
     }
 }
 

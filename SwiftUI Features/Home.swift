@@ -46,6 +46,11 @@ struct Home: View {
                 NavigationLink(destination: PickerView()) {
                     Text("Picker")
                 }
+
+                NavigationLink(destination: ToggleView()) {
+                    Text("Toggle")
+                }
+
             }
         }
     }
