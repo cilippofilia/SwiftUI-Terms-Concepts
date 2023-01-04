@@ -15,6 +15,14 @@
 		185A54FD292B66D000EE5389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185A54FC292B66D000EE5389 /* Assets.xcassets */; };
 		185A5500292B66D000EE5389 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185A54FF292B66D000EE5389 /* Preview Assets.xcassets */; };
 		1868D99C294F288B0075A748 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868D99B294F288B0075A748 /* StepperView.swift */; };
+		18C02F8C29662E34004C1816 /* FontTextModifiersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C02F8B29662E34004C1816 /* FontTextModifiersView.swift */; };
+		18C02F8E296635CD004C1816 /* FontWeightTextModifiersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C02F8D296635CD004C1816 /* FontWeightTextModifiersView.swift */; };
+		18C02F9029663797004C1816 /* FontWidthTextModifiersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C02F8F29663797004C1816 /* FontWidthTextModifiersView.swift */; };
+		18C02F92296638AD004C1816 /* FontDesignTextModifiersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C02F91296638AD004C1816 /* FontDesignTextModifiersView.swift */; };
+		18C02F9429663949004C1816 /* SystemFontTextModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C02F9329663949004C1816 /* SystemFontTextModifierView.swift */; };
+		18C02F9629663A90004C1816 /* BasicTextModifiersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C02F9529663A90004C1816 /* BasicTextModifiersView.swift */; };
+		18C02F9829663FD9004C1816 /* ViewsModifiersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C02F9729663FD9004C1816 /* ViewsModifiersView.swift */; };
+		18C02F9A2966406F004C1816 /* ViewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C02F992966406F004C1816 /* ViewsView.swift */; };
 		18E83B52294DC2E9003E9DB9 /* TextfieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E83B51294DC2E9003E9DB9 /* TextfieldView.swift */; };
 		18EFC75129323C0D00C22338 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EFC75029323C0D00C22338 /* ListView.swift */; };
 		18F693CA2965EF5700A67EF0 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F693C92965EF5700A67EF0 /* ToggleView.swift */; };
@@ -38,6 +46,14 @@
 		185A54FC292B66D000EE5389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		185A54FF292B66D000EE5389 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1868D99B294F288B0075A748 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
+		18C02F8B29662E34004C1816 /* FontTextModifiersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTextModifiersView.swift; sourceTree = "<group>"; };
+		18C02F8D296635CD004C1816 /* FontWeightTextModifiersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontWeightTextModifiersView.swift; sourceTree = "<group>"; };
+		18C02F8F29663797004C1816 /* FontWidthTextModifiersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontWidthTextModifiersView.swift; sourceTree = "<group>"; };
+		18C02F91296638AD004C1816 /* FontDesignTextModifiersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontDesignTextModifiersView.swift; sourceTree = "<group>"; };
+		18C02F9329663949004C1816 /* SystemFontTextModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemFontTextModifierView.swift; sourceTree = "<group>"; };
+		18C02F9529663A90004C1816 /* BasicTextModifiersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTextModifiersView.swift; sourceTree = "<group>"; };
+		18C02F9729663FD9004C1816 /* ViewsModifiersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsModifiersView.swift; sourceTree = "<group>"; };
+		18C02F992966406F004C1816 /* ViewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsView.swift; sourceTree = "<group>"; };
 		18E83B51294DC2E9003E9DB9 /* TextfieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldView.swift; sourceTree = "<group>"; };
 		18EFC75029323C0D00C22338 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		18F693C92965EF5700A67EF0 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
@@ -65,6 +81,7 @@
 		1859E4C12959A31B0089A6E8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				18C02F992966406F004C1816 /* ViewsView.swift */,
 				1859E4C22959A3320089A6E8 /* Shapes */,
 				18F7EF2A2930C7DE00F478BE /* Stacks */,
 				18EFC75029323C0D00C22338 /* ListView.swift */,
@@ -109,6 +126,7 @@
 			children = (
 				185A54F8292B66CE00EE5389 /* SwiftUI_FeaturesApp.swift */,
 				1859E4BF2959A1FA0089A6E8 /* Home.swift */,
+				18C02F8929662DF6004C1816 /* ViewsModifiers */,
 				1859E4C12959A31B0089A6E8 /* Views */,
 				185A54FC292B66D000EE5389 /* Assets.xcassets */,
 				185A54FE292B66D000EE5389 /* Preview Content */,
@@ -122,6 +140,28 @@
 				185A54FF292B66D000EE5389 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18C02F8929662DF6004C1816 /* ViewsModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				18C02F9729663FD9004C1816 /* ViewsModifiersView.swift */,
+				18C02F8A29662E1E004C1816 /* TextModifiers */,
+			);
+			path = ViewsModifiers;
+			sourceTree = "<group>";
+		};
+		18C02F8A29662E1E004C1816 /* TextModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				18C02F8B29662E34004C1816 /* FontTextModifiersView.swift */,
+				18C02F9529663A90004C1816 /* BasicTextModifiersView.swift */,
+				18C02F8D296635CD004C1816 /* FontWeightTextModifiersView.swift */,
+				18C02F8F29663797004C1816 /* FontWidthTextModifiersView.swift */,
+				18C02F91296638AD004C1816 /* FontDesignTextModifiersView.swift */,
+				18C02F9329663949004C1816 /* SystemFontTextModifierView.swift */,
+			);
+			path = TextModifiers;
 			sourceTree = "<group>";
 		};
 		18F7EF2A2930C7DE00F478BE /* Stacks */ = {
@@ -211,17 +251,25 @@
 				18F7EF2E2930C9AA00F478BE /* LazyHStackView.swift in Sources */,
 				18F7EF292930C7D000F478BE /* VStackView.swift in Sources */,
 				1868D99C294F288B0075A748 /* StepperView.swift in Sources */,
+				18C02F8E296635CD004C1816 /* FontWeightTextModifiersView.swift in Sources */,
+				18C02F9829663FD9004C1816 /* ViewsModifiersView.swift in Sources */,
 				18F693CA2965EF5700A67EF0 /* ToggleView.swift in Sources */,
 				18F7EF302930C9B300F478BE /* LazyVStackView.swift in Sources */,
+				18C02F9429663949004C1816 /* SystemFontTextModifierView.swift in Sources */,
 				18F7EF2C2930C90900F478BE /* HStackView.swift in Sources */,
 				18F7EF212930C23A00F478BE /* ButtonsView.swift in Sources */,
+				18C02F9A2966406F004C1816 /* ViewsView.swift in Sources */,
 				1859E4BD2956FC140089A6E8 /* PickerView.swift in Sources */,
 				18E83B52294DC2E9003E9DB9 /* TextfieldView.swift in Sources */,
+				18C02F9629663A90004C1816 /* BasicTextModifiersView.swift in Sources */,
 				185A54FB292B66CE00EE5389 /* LabelsView.swift in Sources */,
 				18F7EF272930C73800F478BE /* ZStackView.swift in Sources */,
+				18C02F8C29662E34004C1816 /* FontTextModifiersView.swift in Sources */,
 				18EFC75129323C0D00C22338 /* ListView.swift in Sources */,
+				18C02F9029663797004C1816 /* FontWidthTextModifiersView.swift in Sources */,
 				18F7EF232930C33A00F478BE /* ShapesView.swift in Sources */,
 				1859E4C02959A1FA0089A6E8 /* Home.swift in Sources */,
+				18C02F92296638AD004C1816 /* FontDesignTextModifiersView.swift in Sources */,
 				185A54F9292B66CE00EE5389 /* SwiftUI_FeaturesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

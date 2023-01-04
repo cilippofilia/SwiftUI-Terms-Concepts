@@ -11,47 +11,16 @@ struct Home: View {
     var body: some View {
         NavigationView {
             List {
-                NavigationLink(destination: LabelsView()) {
-                    Text("Label")
+                NavigationLink(destination: ViewsView()) {
+                    Text("SwiftUI Views")
                 }
 
-                NavigationLink(destination: ButtonsView()) {
-                    Text("Button")
+                NavigationLink(destination: ViewsModifiersView()) {
+                    Text("SwiftUI ViewsModifiers")
                 }
-
-                NavigationLink(destination: ShapesView()) {
-                    Text("Shapes")
-                }
-
-                NavigationLink(destination: ImageView()) {
-                    Text("Image")
-                }
-
-                NavigationLink(destination: ListView()) {
-                    Text("List")
-                }
-
-                NavigationLink(destination: FormView()) {
-                    Text("Form")
-                }
-
-                NavigationLink(destination: TextfieldView()) {
-                    Text("TextField")
-                }
-
-                NavigationLink(destination: StepperView()) {
-                    Text("Stepper")
-                }
-
-                NavigationLink(destination: PickerView()) {
-                    Text("Picker")
-                }
-
-                NavigationLink(destination: ToggleView()) {
-                    Text("Toggle")
-                }
-
             }
+            .navigationTitle("SwiftUI ✨")
+
         }
     }
 }
