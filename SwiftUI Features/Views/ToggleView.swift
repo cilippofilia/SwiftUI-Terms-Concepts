@@ -11,8 +11,10 @@ struct ToggleView: View {
     @State var isWifiOn = false
 
     var body: some View {
-        Toggle("Wi-Fi", isOn: $isWifiOn)
-            .padding()
+        Toggle(isOn: $isWifiOn) {
+            Text("Wi-Fi")
+        }
+        .padding()
     }
 }
 
