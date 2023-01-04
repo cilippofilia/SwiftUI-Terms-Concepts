@@ -18,7 +18,11 @@ struct PickerView: View {
     @State private var selectedDifficulty: Difficulty = .medium
 
     var body: some View {
-        List {
+        HStack {
+            Text("Level:")
+
+            Spacer()
+
             Picker("Level:", selection: $selectedDifficulty) {
                 Text("Easy")
                     .tag(Difficulty.easy)
@@ -33,6 +37,7 @@ struct PickerView: View {
                     .tag(Difficulty.extreme)
             }
         }
+        .padding()
     }
 }
 

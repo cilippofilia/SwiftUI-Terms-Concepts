@@ -17,6 +17,7 @@
 		1868D99C294F288B0075A748 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868D99B294F288B0075A748 /* StepperView.swift */; };
 		18E83B52294DC2E9003E9DB9 /* TextfieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E83B51294DC2E9003E9DB9 /* TextfieldView.swift */; };
 		18EFC75129323C0D00C22338 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EFC75029323C0D00C22338 /* ListView.swift */; };
+		18F693CA2965EF5700A67EF0 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F693C92965EF5700A67EF0 /* ToggleView.swift */; };
 		18F7EF212930C23A00F478BE /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7EF202930C23A00F478BE /* ButtonsView.swift */; };
 		18F7EF232930C33A00F478BE /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7EF222930C33A00F478BE /* ShapesView.swift */; };
 		18F7EF272930C73800F478BE /* ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7EF262930C73800F478BE /* ZStackView.swift */; };
@@ -39,6 +40,7 @@
 		1868D99B294F288B0075A748 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 		18E83B51294DC2E9003E9DB9 /* TextfieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldView.swift; sourceTree = "<group>"; };
 		18EFC75029323C0D00C22338 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		18F693C92965EF5700A67EF0 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 		18F7EF202930C23A00F478BE /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
 		18F7EF222930C33A00F478BE /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
 		18F7EF262930C73800F478BE /* ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView.swift; sourceTree = "<group>"; };
@@ -63,11 +65,14 @@
 		1859E4C12959A31B0089A6E8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1859E4C22959A3320089A6E8 /* Shapes */,
+				18F7EF2A2930C7DE00F478BE /* Stacks */,
 				18EFC75029323C0D00C22338 /* ListView.swift */,
 				182209F7294B3EAC003D8CA1 /* FormView.swift */,
 				18E83B51294DC2E9003E9DB9 /* TextfieldView.swift */,
 				1868D99B294F288B0075A748 /* StepperView.swift */,
 				1859E4BC2956FC140089A6E8 /* PickerView.swift */,
+				18F693C92965EF5700A67EF0 /* ToggleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -104,9 +109,7 @@
 			children = (
 				185A54F8292B66CE00EE5389 /* SwiftUI_FeaturesApp.swift */,
 				1859E4BF2959A1FA0089A6E8 /* Home.swift */,
-				1859E4C22959A3320089A6E8 /* Shapes */,
 				1859E4C12959A31B0089A6E8 /* Views */,
-				18F7EF2A2930C7DE00F478BE /* Stacks */,
 				185A54FC292B66D000EE5389 /* Assets.xcassets */,
 				185A54FE292B66D000EE5389 /* Preview Content */,
 			);
@@ -208,6 +211,7 @@
 				18F7EF2E2930C9AA00F478BE /* LazyHStackView.swift in Sources */,
 				18F7EF292930C7D000F478BE /* VStackView.swift in Sources */,
 				1868D99C294F288B0075A748 /* StepperView.swift in Sources */,
+				18F693CA2965EF5700A67EF0 /* ToggleView.swift in Sources */,
 				18F7EF302930C9B300F478BE /* LazyVStackView.swift in Sources */,
 				18F7EF2C2930C90900F478BE /* HStackView.swift in Sources */,
 				18F7EF212930C23A00F478BE /* ButtonsView.swift in Sources */,
