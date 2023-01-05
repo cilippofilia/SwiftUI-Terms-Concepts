@@ -23,6 +23,7 @@
 		18C02F9629663A90004C1816 /* BasicTextModifiersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C02F9529663A90004C1816 /* BasicTextModifiersView.swift */; };
 		18C02F9829663FD9004C1816 /* ViewsModifiersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C02F9729663FD9004C1816 /* ViewsModifiersView.swift */; };
 		18C02F9A2966406F004C1816 /* ViewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C02F992966406F004C1816 /* ViewsView.swift */; };
+		18DE87932966E9F2002D7398 /* BasicLabelModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE87922966E9F2002D7398 /* BasicLabelModifiers.swift */; };
 		18E83B52294DC2E9003E9DB9 /* TextfieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E83B51294DC2E9003E9DB9 /* TextfieldView.swift */; };
 		18EFC75129323C0D00C22338 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EFC75029323C0D00C22338 /* ListView.swift */; };
 		18F693CA2965EF5700A67EF0 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F693C92965EF5700A67EF0 /* ToggleView.swift */; };
@@ -54,6 +55,7 @@
 		18C02F9529663A90004C1816 /* BasicTextModifiersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTextModifiersView.swift; sourceTree = "<group>"; };
 		18C02F9729663FD9004C1816 /* ViewsModifiersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsModifiersView.swift; sourceTree = "<group>"; };
 		18C02F992966406F004C1816 /* ViewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsView.swift; sourceTree = "<group>"; };
+		18DE87922966E9F2002D7398 /* BasicLabelModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicLabelModifiers.swift; sourceTree = "<group>"; };
 		18E83B51294DC2E9003E9DB9 /* TextfieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldView.swift; sourceTree = "<group>"; };
 		18EFC75029323C0D00C22338 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		18F693C92965EF5700A67EF0 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				18C02F9729663FD9004C1816 /* ViewsModifiersView.swift */,
+				18DE87912966E9D0002D7398 /* LabelModifiers */,
 				18C02F8A29662E1E004C1816 /* TextModifiers */,
 			);
 			path = ViewsModifiers;
@@ -161,6 +164,15 @@
 				18C02F91296638AD004C1816 /* FontDesignTextModifiersView.swift */,
 				18C02F9329663949004C1816 /* SystemFontTextModifierView.swift */,
 			);
+			path = TextModifiers;
+			sourceTree = "<group>";
+		};
+		18DE87912966E9D0002D7398 /* LabelModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				18DE87922966E9F2002D7398 /* BasicLabelModifiers.swift */,
+			);
+			name = LabelModifiers;
 			path = TextModifiers;
 			sourceTree = "<group>";
 		};
@@ -252,6 +264,7 @@
 				18F7EF292930C7D000F478BE /* VStackView.swift in Sources */,
 				1868D99C294F288B0075A748 /* StepperView.swift in Sources */,
 				18C02F8E296635CD004C1816 /* FontWeightTextModifiersView.swift in Sources */,
+				18DE87932966E9F2002D7398 /* BasicLabelModifiers.swift in Sources */,
 				18C02F9829663FD9004C1816 /* ViewsModifiersView.swift in Sources */,
 				18F693CA2965EF5700A67EF0 /* ToggleView.swift in Sources */,
 				18F7EF302930C9B300F478BE /* LazyVStackView.swift in Sources */,
